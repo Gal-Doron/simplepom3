@@ -23,5 +23,5 @@ steps:
 - script: 'curl -LJO https://github.com/whitesource/unified-agent-distribution/releases/latest/download/wss-unified-agent.jar'
   displayName: 'Download the latest Unified Agent'
 
-- script: 'java -jar wss-unified-agent.jar -c wss-unified-agent.config -project UAintegrationAzure1'
+- script: 'java -jar wss-unified-agent.jar -project UAintegrationAzure1'
   displayName: 'Run Unified Agent Scan'
